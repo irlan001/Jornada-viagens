@@ -4,6 +4,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     padding: 38px 48px;
+    position: relative;
     
 }
 .logo{
@@ -12,14 +13,60 @@ header{
     height: 64px;
     
 }
+
 .navigation{
-    padding-top: 24px;
+    margin-top: 24px;
 }
 input[type="checkbox"]:checked ~ nav{
     display:block;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    background-color: var(--background-tertiary-cor);
 }
 
 
 nav{
     display: none;
+}
+.list-links{
+    list-style: none;
+    
+    
+}
+
+.list-links li a{
+    color: var(--text-secundary);
+    text-decoration: none;
+    font-weight: var(--menu-text-weigth);
+    font-size: 24px;
+}
+.list-links li{
+    margin: 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+   .navigation{
+    margin-top: 0;
+    width: 467px;
+   }
+   .navigation label{
+    display: none;
+   }
+  
+   .navigation nav{
+    display: block;
+
+   }
+
+    .navigation ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+   }
+   .navigation li{
+    margin: 0;
+   }
 }
