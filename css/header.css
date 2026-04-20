@@ -4,6 +4,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     padding: 38px 48px;
+    position: relative;
     
 }
 .logo{
@@ -12,14 +13,32 @@ header{
     height: 64px;
     
 }
+
 .navigation{
-    padding-top: 24px;
+    margin-top: 24px;
 }
 input[type="checkbox"]:checked ~ nav{
     display:block;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    background-color: var(--background-tertiary-cor);
 }
 
 
 nav{
     display: none;
+}
+.list-links{
+    list-style: none;
+    
+}
+
+.list-links li a{
+    color: var(--text-secundary);
+    text-decoration: none;
+}
+.list-links li{
+    margin: 16px 0;
 }
