@@ -29,13 +29,25 @@
     margin-top: 24px;
     display: inline-block;
 }
-.offers-cards{
-    margin-bottom: 24px;
-    display: block;
-    text-align: right;
 
-    
+.card.japao{
+    background: url(../img/japão.jpg) no-repeat;
+    background-size: cover;
 }
+.card.sanandreas{
+    background: url(../img/sanAndreas.jpg) no-repeat;
+    background-size: cover;
+}
+.card.paraiba{
+    background: url(../img/paraiba.jpg)no-repeat;
+    background-size: cover;
+}
+.card.manaus{
+    background: url(../img/manaus.jpg) no-repeat;
+    background-size: cover;
+}
+
+
 @media screen and (min-width: 1024px) {
     .card{
         width: 588px;
