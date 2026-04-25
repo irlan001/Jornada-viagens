@@ -1,0 +1,69 @@
+.offers-2{
+    
+}
+.offers-2 .section-title{
+    width: 306px;
+    margin: 88px auto 32px;
+}
+
+.categorias-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-decoration: none;
+}
+.categorias{
+    background-color: var(--background-secundario-cor);
+    width: 312px;
+    height: 220px;
+    padding: 24px 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    text-align: center;
+    
+}
+
+.buscar-texto{
+    color: var(--text-primary);
+    font-size: 28px;
+    
+}
+.nacionais .img-buscar{
+    text-decoration: none;
+}
+.nacionais .single-line{
+    padding-top: 50px;
+}
+.nacionais .transfer img{
+    margin: 20px 0 30px;
+}
+.nacionais .viagem img{
+    margin: 20px 0;
+}
+
+@media screen and (min-width:768px) {
+
+    .offers-2 .section-title{
+    width: 100%;
+}
+    .categorias-cards{
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .categorias-cards .nacionais{
+        width: 350px;
+    } 
+   
+}
+
+@media screen and (min-width: 1440px) {
+    .categorias-cards .nacionais{
+        width: 280px;
+    }
+}
