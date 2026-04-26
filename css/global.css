@@ -31,10 +31,15 @@ body{
     color: var(--text-primary);
 }
 
+.section-title{
+  width: 270px;
+  margin: 0 auto;
+}
+
 .section-title h2{
   font-size: 28px;
   font-weight: var(--text-weigth);
-  margin: 0;
+  margin: 88px 0 0 0;
   text-align: center;
 }
 .section-title hr{
@@ -60,14 +65,24 @@ body{
 }
 
 @media screen and (min-width: 768px) {
+ 
+  .section-title{
+    width: 100%;
+  }
   .section-title h2{
   font-size: 32px;
 }
 }
 
 @media screen and (min-width: 1024px) {
+  
   .button:hover{
     background-color: var(--primary-color);
   }
+  
+}
+
+@media screen and (min-width: 1440px) {
+ 
   
 }

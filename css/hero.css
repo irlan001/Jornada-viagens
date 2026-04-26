@@ -5,7 +5,7 @@
     background-size: cover;
 }
 .hero h2{
-    padding: 88px 24px;
+    padding-top: 88px;
     margin: 0px ;
     font-weight: var(--text-weigth);
     font-size: 20px;
@@ -20,7 +20,7 @@
     background-size: cover;
 }
 .hero h2{
-    padding: 88px 60px;
+   
     margin: 0px ;
     font-size: 32px;
 
@@ -34,12 +34,10 @@
     background-size: cover;
 }
 .hero h2{
-    padding: 88px 120px;
+    
 }
 }
 
 @media screen and (min-width:1920px) {
-.hero h2{
-    padding: 88px 160px;
-}
+
 }
