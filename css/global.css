@@ -49,7 +49,15 @@ body{
   border: none;
   margin: 16px auto 32px ;
 }
-
+.content-title{
+  font-size: 28px;
+  font-weight: var(--titles-weigth);
+}
+.content-text{
+  font-size: 20px;
+  font-weight: var(--text-weigth);
+  line-height: 32px;
+}
 .button{
   width: 280px;
   height: 64px;
