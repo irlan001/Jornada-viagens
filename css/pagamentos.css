@@ -1,0 +1,97 @@
+
+.content-container .image-content{
+    display: grid;
+    grid-template-columns: 144px 144px;
+    gap: 24px;
+    height: 460px;
+    width: 312px;
+    margin: 0 auto;
+   
+}
+
+.paymentes .content-container .content-title{
+    width: 312px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.paymentes .content-container .content-text{
+    width: 312px;
+    margin: 0 auto 24px;
+}
+
+.paymentes .content-container .image-content .primeiro{
+   
+    
+    background: url(../img/primeira-foto-bag.jpg) no-repeat;
+    background-size: cover;
+}
+.paymentes .content-container .image-content .segundo{
+    
+    background: url(../img/segunda-foto-passaportes.jpg) no-repeat;
+    background-size: cover;
+}
+.paymentes .content-container .image-content .terceiro{
+    
+    background: url(../img/terceira-foto-pessoas.jpg) no-repeat;
+    background-size: cover;
+}
+.paymentes .content-container .image-content .third{
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+
+    .paymentes .content-container.content-title{
+    width: 648px;
+    margin-bottom: 24px;
+}
+.paymentes .content-container .content-text{
+    width: 648px;
+}
+   .content-container .image-content{
+        grid-template-columns: 312px 312px;
+        height: 460px;
+        width: 648px;   
+    }
+    .paymentes .content-container .image-content .primeiro{
+    background: url(../img/primeira-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+}
+.paymentes .content-container .image-content .segundo{
+    background: url(../img/segunda-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+}
+.paymentes .content-container .image-content .terceiro{
+    background: url(../img/terceira-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+}
+.paymentes .content-container.image-content .third{
+    grid-column: span 2;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    
+.content-container{
+    display: flex;
+    
+}
+.paymentes .content-container .text-content{
+    margin: 0 10px auto auto;
+}
+.paymentes .content-container .content-title{
+    width: 360px;
+    
+}
+.paymentes .content-container .content-text{
+    width: 360px;
+    
+}
+.content-container .image-content{
+    width: 648px;
+    margin: 0 auto 0 10px;
+}
+ 
+
+}
+    

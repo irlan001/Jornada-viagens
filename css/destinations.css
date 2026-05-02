@@ -25,8 +25,7 @@
 .destinos header h4{
     text-align: left;
     margin:24px auto;
-    font-size: 28px;
-    font-weight: var(--titles-weigth);
+    
 }
 
 .destinos p{
