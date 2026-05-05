@@ -1,4 +1,4 @@
-header{
+.logo-header{
     background-color: var(--background-tertiary-cor);
     display: flex;
     flex-direction: row;
